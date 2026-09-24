@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="1">
+        <thead>
+            <tr>
+                <th rowspan="1"> <img src="./images (1).jpg" width="70" alt=""></th>
+                <th colspan="3"> <h2>UNIVERSIDAD AUTONOMA "TOMAS FRIAS" <br>INGENIERIA DE SISTEMAS</h2></th>
+                <th rowspan="1"> <img src="./images.jpg" width="70" alt=""></th>
+            </tr>
+            <tr>
+                <th>ESTUDIANTE:</th>
+                <td colspan="4">Jose Armando Lopez Ortiz</td>
+            </tr>
+            <tr>
+                <th>DOCENTE:</th>
+                <td colspan="1">ING. Choque Matos Javier</td>
+                <th>MATERIA</th>
+                <th colspan="2">SIS-313 G1</th>
+            </tr>
+            <tr>
+                <th>AUXILIAR:</th>
+                <td>Univ. Alex Sander Lopez Orcko</td>
+                <th>FECHA:</th>
+                <th>23/09/2026</th>
+                <th>Practica N2</th>
+            </tr>
+        </thead>
+    </table>
+    <h2> PRÁCTICA N2  GIT, GITHUB Y HTML </h2>
+    <ol>
+        <li>
+            <h4>¿Qué es Git y cuál es su función principal dentro de un proyecto de desarrollo?</h4>
+            <p>Git es un sistema de control de versiones que permite registrar y administrar los cambios <br> 
+            realizados en los archivos de un proyecto y su funcion principal es mantener un historial de cambios <br> permitiendo volver a versiones anteriores y trabajar de manera organizada</p>
+        </li>
+        <li>
+            <h4>¿Cuál es la diferencia entre Git y GitHub y qué función cumple cada uno?</h4>
+            <p> Git es una herramienta de control de versiones que funciona principalmente de manera local en nuestro ordenador <br>
+            mientras que GitHub es una plataforma en linea que permite almacenar repositorios Git, compartir proyectos y trabajar de manera colaborativa</p>
+        </li>
+        <li>
+            <h4>¿Qué pasos se deben seguir en Git para guardar los cambios realizados en un proyecto y crear un commit?</h4>
+            <ul>
+                <li>Primero se revisan los cambios con git status</li>
+                <li>Despues se agregan los archivos con git add .</li>
+                <li>Finalmente se crea un commit -m "un mensaje"</li>
+            </ul>
+        </li>
+        <li>
+            <h4>¿Qué comandos se utilizan para conectar un repositorio local con un repositorio de GitHub y posteriormente <br> subir los cambios? Explique brevemente la función de cada uno.</h4>
+            <ul>
+                <li>Para connectar un repositorio local con GitHub se usa git remote add origin URL_DEL_REPOSITORIO</li>
+                <li>Para verificar la conexion es con git remote -v</li>
+                <li>Para subir los cambios es con git push origin main</li>
+            </ul>
+        </li>
+        <li>
+            <h4>¿Qué es una rama (branch) en Git y en qué situaciones puede ser útil trabajar con una rama diferente a main?</h4>
+            <p>Una rama es una linea independiente de trabajo dentro de un repositorio y es util para realizar cambios, desarrolar nuevas funciones <br>
+            o haceer pruebas sin modificar directamente la rama principal main</p>
+        </li>
+        <li>
+            <h4>Explique el proceso para crear una nueva rama, realizar cambios en ella y posteriormente subir esa rama a un repositorio de GitHub.</h4>
+            <ul>
+                <li>Primero se cra la rama con: git branch nombre de la rama ejemplo git branch auxilituras</li>
+                <li>Despues se cambia a la rama git checkout auxiliaturas</li>
+                <li>Se realizan los cambios y se agregan los archivps con git add . </li>
+                <li>se crea un commit -m "un mensaje"</li>
+                <li>Finalmente se sube a la rama a GitHub con git push -u origin auxiliaturas </li>
+            </ul>
+        </li>
+        <li>
+            <h4>¿Qué es un conflicto en Git y qué pasos se deben seguir para resolverlo antes de combinar los cambios de una rama con main?</h4>
+            <p>Un conflicto ocurre cuando Git encuentra cambios diferentes en las mismas lineas de un archivo y no puede decidir automaticamente cual debe conservar</p>
+            <p>Para resolverlos se deben segir estos pasos:</p>
+            <ul>
+                <li>Identificar el archivo que presenta el conflicto</li>
+                <li>Abrir el archivo y revisar las partes marcadas por Git</li>
+                <li>Decidir que cambios se deben conservar</li>
+                <li>Eliminar las marcas del conflicto</li>
+                <li>Guardar el archivo</li>
+                <li>Agregar el archivo con git add .</li>
+                <li>crear un commit -m "un mensaje"</li>
+                <li>Finalmente continuar con las combinacion de las ramas</li>
+            </ul>
+        </li>
+    </ol>
+    <h1>MI HORARIO</h1>
+    <p>Este es mi horario de la gestion 2/2026</p>
+    <ul>
+        <li>
+            <a href="./horario_materias.html">Horario de Materias</a>    
+        </li>
+        <li>
+            <a href="./horario_auxiliaturas.html">Horario de Auxiliaturas</a>
+        </li>
+    
+    </ul>
+    
+</body>
+</html>
