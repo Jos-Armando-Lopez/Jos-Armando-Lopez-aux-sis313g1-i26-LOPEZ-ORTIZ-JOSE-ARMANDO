@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Practica N°3</h1>
+    <h2>Preguntas teoricas:</h2>
+    <ol>
+        <li>
+            <h4>Existen dos formas principales de conectar un archivo HTML con JavaScript. Explique cuáles son estas 2 formas y proporcione un ejemplo básico de cada una.</h4>
+            <p> Existen dos formas principales de conectar un archivo HTML con JavaScript. La primera es usando JavaScript interno,  <br>
+                que consiste en escribir el código JavaScript directamente dentro del archivo HTML utilizando la etiqueta  por ejemplo: </p>
+            <p>a) JavaScript interno: el código se escribe dentro del mismo archivo HTML, usando la etiqueta &lt;script&gt;.</p>
+                &lt;script&gt;
+                console.log("Hola desde JavaScript interno");
+                &lt;/script;&gt;
+            <p>b) JavaScript externo: el código se escribe en un archivo aparte (por ejemplo script.js) y se conecta con el atributo src de la etiqueta &lt;script&gt;.</p>
+                &lt;script src="script.js"&gt;&lt;/script&gt;
+            <p>Y dentro del archivo script.js:</p>    
+            console.log("Hola desde JavaScript externo");
+        </li>
+        <li>
+            <h4>Explique paso a paso cómo visualizar los resultados de JavaScript utilizando la consola del navegador.</h4>
+            <ol>
+                <li>Escribir en el código de JavaScript la instrucción console.log() con lo que queremos mostrar. Por ejemplo: console.log("Hola");</li>
+                <li>Abrir el archivo index.html en el navegador</li>
+                <li>Abrir las herramientas de desarrollador presionando la tecla F12</li>
+                <li>Hacer clic en la pestaña Consola</li>
+                <li>Ahí aparecen los mensajes que pusimos en console.log().</li>
+            </ol>
+        </li>
+        <li>
+            <h4>Explique qué son las variables en JavaScript y cuál es la diferencia entre var, let y const. Incluya un ejemplo <br>
+                sencillo de cada una e indique cuál de estas formas ya no se recomienda utilizar actualmente y por qué.</h4>
+            <p>Las variables en JavaScript son espacios donde se almacenan datos o valores. Se pueden declarar con var, let y const. <br> 
+                por ejemplo: var nombre = "Juan";, let edad = 15; y const pi = 3.14;. La diferencia es que var es una forma antigua, <br>
+                let permite cambiar el valor y const no permite reasignarlo. Actualmente no se recomienda usar var porque puede causar confusiones por su alcance. Se recomienda usar let y const.</p>
+        </li>
+    </ol>
+    <script src="./script.js"></script>
+</body>
+</html>
