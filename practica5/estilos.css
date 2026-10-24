@@ -1,0 +1,106 @@
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background-color: #e8eef5;
+    margin: 0;
+}
+
+header {
+    background-color: #1f3a5f;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    font-size: 36px;
+    margin: 0 0 10px 0;
+}
+
+
+.contenedor {
+    background-color: white;
+    margin: 30px auto;
+    padding: 30px;
+    max-width: 800px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    font-size: 26px;
+    color: #1f3a5f;
+    text-align: center;
+    margin: 25px 0 15px 0;
+}
+
+.sobre-mi {
+    text-align: justify;
+    line-height: 1.6;
+}
+
+
+.tarjeta {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 27%;
+    vertical-align: top;
+    background-color: #f4c542;
+    text-align: center;
+    margin: 10px 1.5%;
+    padding: 15px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.25);
+}
+
+.tarjeta h3,
+.tarjeta p {
+    margin: 5px 0;
+}
+
+.tarjeta:hover {
+    background-color: #e0555a;
+    color: white;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.45);
+}
+
+ul {
+    color: #1f3a5f;
+    margin: 20px 40px;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.25);
+}
+
+th {
+    background-color: #1f3a5f;
+    color: white;
+    text-align: center;
+    padding: 12px;
+}
+
+td {
+    text-align: center;
+    padding: 12px;
+}
+
+tr:nth-child(even) {
+    background-color: #f1f5fa;
+}
+
+tr:hover {
+    background-color: #ffe9a8;
+}
+
+footer {
+    background-color: #1f3a5f;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+footer p {
+    margin: 0;
+}
