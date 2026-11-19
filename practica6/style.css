@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #e0e0e0;
+  font-family: 'Poppins', Arial, sans-serif;
+}
+
+.principal {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 40px 24px;
+}
+
+.titulo {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 800;
+  margin: 0;
+}
+
+.linea {
+  width: 80px;
+  height: 4px;
+  background-color: #0d5cb6;
+  margin: 12px auto 40px auto;
+}
+
+.tarjeta {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: white;
+  border-left: 5px solid #0d5cb6;
+  border-radius: 8px;
+  padding: 28px 36px;
+  gap: 20px 0;
+}
+
+.dato {
+  width: 50%;
+  min-width: 220px;
+}
+
+.etiqueta {
+  font-size: 11px;
+  font-weight: 600;
+  color: #666;
+  text-transform: uppercase;
+}
+
+.valor {
+  font-size: 15px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.niveles-titulo {
+  font-size: 16px;
+  font-weight: 700;
+  margin: 36px 0 14px 0;
+}
+
+.niveles {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  padding: 0 14px;
+}
+
+.btn {
+  display: block;
+  background-color: white;
+  color: black;
+  text-decoration: none;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 10px 0;
+}
+
+.niveles .btn {
+  width: 100px;
+}
+
+.btn:hover,
+.btn.activo {
+  background-color: #1976d2;
+  color: white;
+}
+
+.volver {
+  display: flex;
+  justify-content: center;
+}
+
+.volver .btn {
+  width: 300px;
+}
+
+.contenedor {
+  display: flex;
+  background-color: white;
+  margin: 50px;
+  padding: 50px;
+  height: 420px;
+  gap: 20px;
+}
+
+.caja {
+  width: 80px;
+  height: 80px;
+  border-radius: 8px;
+}
+
+.roja {
+  background-color: red;
+}
+
+.amarilla {
+  background-color: yellow;
+}
+
+.verde {
+  background-color: green;
+}
+
+.nivel1 {
+  justify-content: center;
+}
+
+.nivel2 {
+  justify-content: flex-end;
+}
+
+.nivel3 {
+  align-items: center;
+}
+
+.nivel4 {
+  align-items: flex-end;
+}
+
+.nivel5 {
+  justify-content: center;
+  align-items: center;
+}
+
+.nivel6 {
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.nivel7 {
+  flex-direction: column;
+}
+
+.nivel8 {
+  flex-direction: row-reverse;
+}
+
+.nivel9 {
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.nivel10 {
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+}
+
+.nivel11 {
+  flex-direction: column-reverse;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.nivel12 {
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.nivel13 {
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nivel14 {
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nivel15 {
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.nivel15 .roja {
+  align-self: flex-start;
+}
+
+.nivel15 .amarilla {
+  align-self: center;
+}
+
+.nivel15 .verde {
+  align-self: flex-end;
+}
